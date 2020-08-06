@@ -1,0 +1,36 @@
+#OurStory{
+    padding: 100px 0;
+    .quote{
+        color: $paragraphColor;
+        margin: 0.5rem 0 3rem;
+        strong{
+            color: $black;
+            font-weight: 700;
+        }
+    }
+    .reserve-btn{
+        font-family: $displayFont;
+        display: inline-block;
+        padding: 20px 40px;
+        border: 1px solid $black;
+        text-align: center;
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+        
+        &:hover{
+            background: $red;
+            color: #fff;
+        }
+    }
+    .prep-img{
+        max-width: 500px;
+        height: 500px;
+        background: linear-gradient(135deg, rgba(0,0,0,.2)0,#002d77 100%);
+        background-image:linear-gradient(135deg, rgba(0,0,0,.2)0,#000 100%),url('https://cdn4.eyeem.com/thumb/625270615ea2a69dc09e7b2f000ad4502104370d-1568633627295/w/750'); 
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+}
